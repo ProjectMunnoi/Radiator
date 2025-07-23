@@ -1,8 +1,8 @@
-import React from "react";
+
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 left-0 container mx-auto sm:px-32 py-2 flex items-center justify-between bg-transparent">
+    <div className="fixed top-0 left-0 container mx-auto sm:px-32 hidden sm:flex py-2  items-center justify-between bg-transparent">
       <div className="flex space-x-10 items-center">
         <h1 className="text-4xl font-bold">MyApp</h1>
         <ul className="flex space-x-8">
