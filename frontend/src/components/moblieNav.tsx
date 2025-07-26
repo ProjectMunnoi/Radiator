@@ -40,7 +40,7 @@ const MobileNav: React.FC<MobileNavbarProps> = ({ className = "" }) => {
           <a
             href="#"
             className="font-semibold block text-base hover:opacity-50">
-            Services
+            <a href="#services">Services</a>
           </a>
           <a
             href="#"
