@@ -11,7 +11,7 @@ const Navbar: React.FC<NavbarProps> = ({ className = "" }) => {
         <h1 className="text-4xl font-bold">MyApp</h1>
         <ul className="flex space-x-8">
           <li className="hover:opacity-50 font-semibold text-xl">About</li>
-          <li className="hover:opacity-50 font-semibold text-xl">Services</li>
+          <li className="hover:opacity-50 font-semibold text-xl"><a href="#services">Services</a></li>
           <li className="hover:opacity-50 font-semibold text-xl">Gallery</li>
           <li className="hover:opacity-50 font-semibold text-xl">Blog</li>
           <li className="hover:opacity-50 font-semibold text-xl">Contact</li>
